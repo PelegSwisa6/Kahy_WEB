@@ -1,0 +1,181 @@
+.hero {
+   background: #000000;
+  padding: 200px 0;
+
+}
+
+
+.main__btn1 {
+  font-size: 1.8rem;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  padding: 20px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.main__btn1 a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main__btn1:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff1ead;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.main__btn1:hover {
+  color: #fff;
+}
+
+.main__btn1:hover:after {
+  width: 100%;
+}
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero__heading {
+  font-size: 80px;
+  margin-bottom: 24px;
+  color:#ed1a52;
+  
+}
+.hero__heading h2 {
+  font-size: 2rem;
+  background-color: #920027;
+  background-image: linear-gradient(to top, #000 0%, #000 100%);
+  background-size: 100%;
+  -webkit-background-clip:text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.hero__heading span {
+  font-size: 60px ;
+
+  background: #baabb6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -mo-text-fill-color: transparent;
+}
+
+.hero__description {
+  font-size: 60px;
+  background: #da22ff; 
+  background: -webkit-linear-gradient(
+    to right,
+    #9114ff,
+    #da22ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: #8e9eab; 
+  background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.highlight {
+  border-bottom: 4px solid rgb(132, 0, 255);
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .hero__heading {
+    font-size: 60px;
+  }
+
+  .hero__description {
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (min-width:600px) and (max-width:1400px){      /* 1500 or 1600 ore 1800 */
+  .hero__container {
+    padding: 9rem 0;
+    background-size: 95%;
+
+  }
+
+  .hero__container h1 {
+    font-size: 3rem;
+  }
+
+  .hero__container h2 {
+    font-size: 2rem;
+  }
+
+
+
+}
+
+ @media screen and (min-width:450px) and (max-width:600px) {
+  .hero__container {
+    padding: 5rem 0;
+    margin-top: 2rem;
+    background-size: 92%;
+  }
+
+  .hero__container h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero__container h2 {
+    font-size: 2rem;
+  }
+
+}
+
+
+@media screen and (max-width:450px){
+  .hero__container {
+    padding: 5rem 0;
+    margin-top: 2rem;
+    background-size: 110%;
+  }
+
+  .hero__container h1 {
+    font-size: 1.6rem;
+  }
+
+} 

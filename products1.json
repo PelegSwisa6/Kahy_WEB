@@ -1,0 +1,181 @@
+
+[
+  {
+    "id": 1,
+  "title": "drawing on the back",
+  "price": 109.95,
+  "description":
+    "Oversize shirt with face on the back",
+    "category" : "Men",
+    "color" : "white",
+  "image" : "Kahy_photos/Dob-removebg-preview.PNG",
+    "amount" : 1 
+  },
+
+  {
+      "id": 2,
+  "title": "with patches",
+  "price": 22.3,
+  "description":
+    "Slimfit shirt with a face tag",
+  "category": "Men",
+  "color" : "white",
+  "image":
+   "Kahy_photos/facePatch-removebg-preview.PNG"
+   ,"amount" : 1
+
+  },
+  {
+    "id": 3,
+"title": "drawing on the front",
+"price": 22.3,
+"description":
+  "Slim shirt with a painting of a house",
+"category": "Men",
+"color" : "white",
+"image":
+"Kahy_photos/draw-removebg-preview.PNG"
+,"amount" : 1
+},
+{
+  "id": 4,
+"title": "Hamsa over-size ",
+"price": 22.3,
+"description":
+"Oversized shirt with hamsa",
+"category": "Men",
+"color" : "white",
+"image":
+"Kahy_photos/White-removebg-preview.png"
+,"amount" : 1
+},
+{
+"id": 5,
+"title": "Snake bracelet ",
+"price": 22.3,
+"description":
+"Silver bracelet in the shape of a snake ",
+"category": "Women",
+"image":
+"Kahy_photos/snakeBracelet.jpg"
+,"amount" : 1
+},
+{
+"id": 6,
+"title": "Classic bracelet ",
+"price": 22.3,
+"description":
+"A classic silver bracelet ",
+"category": "Women",
+"image":
+"https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+,"amount" : 1
+}, 
+{
+"id": 7,
+"title": "A classic ring ",
+"price": 22.3,
+"description":
+"A classic silver ring ",
+"category": "Women",
+"image":
+"https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+,"amount" : 1
+},
+{
+"id": 8,
+"title": "Extensive earrings ",
+"price": 22.3,
+"description":
+"Gold-colored extended earrings",
+"category": "Women",
+"image":
+"https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+,"amount" : 1
+},
+{
+"id": 9,
+"title": "Late blommer",
+"price": 22.3,
+"description":
+"Slim-fitting style, late bloomer",
+"category": "Men",
+"color" : "black",
+"image":
+"Kahy_photos/Black-removebg-preview.PNG"
+,"amount" : 1
+},
+{
+"id": 10,
+"title": "Heart shirt ",
+"price": 22.3,
+"description":
+"Slim-fitting style, lost heart",
+"category": "Men",
+"color" : "black",
+"image":
+"Kahy_photos/heart1.PNG"
+,"amount" : 1
+},
+
+{
+"id": 11,
+"title": "Slim Fit T-Shirts",
+"price": 22.3,
+"description":
+"Slim-fitting style ",
+"category": "Women",
+"color" : "black",
+"image":
+"https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+,"amount" : 1
+},
+{
+"id": 12,
+"title": "Slim Fit T-Shirts",
+"price": 22.3,
+"description":
+"Slim-fitting style, ",
+"category": "Women",
+"color" : "black",
+"image":
+"https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+,"amount" : 1
+},{
+"id": 13,
+"title": "Black bracelet",
+"price": 22.3,
+"description":
+"Black bracelet for men ",
+"category": "Men",
+"color" : "black",
+"image":
+"Kahy_photos/blackman-removebg-preview.png"
+,"amount" : 1
+}
+,{
+"id": 14,
+"title": "Black necklace",
+"price": 22.3,
+"description":
+"Black necklace for men ",
+"category": "Women",
+"color" : "black",
+"image":
+"Kahy_photos/Black4-removebg-preview.png"
+,"amount" : 1  
+},
+{
+"id": 15,
+"title": "Black bracelet ",
+"price": 22.3,
+"description":
+"Black bracelet for men  ",
+"category": "Men",
+"color" : "black",
+"image":
+"Kahy_photos/Black2-removebg-preview.png"
+,"amount" : 1  
+}
+]
+
