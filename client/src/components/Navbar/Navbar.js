@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./navbar.css";
 import { NavLink, Link } from "react-router-dom";
 import CartIcon from "../Products/shoppingCart.jpg";
@@ -6,10 +6,6 @@ import CartIcon from "../Products/shoppingCart.jpg";
 const menu = document.querySelector("#mobile-menu");
 const menuLinks = document.querySelector(".navbar__menu");
 const navLogo = document.querySelector("#navbar__logo");
-const mobileMenu = () => {
-  menu.classList.toggle("is-active");
-  menuLinks.classList.toggle("active");
-};
 
 // menu.addEventListener("click", mobileMenu);
 
@@ -22,9 +18,16 @@ function Navbar(setShow, size) {
             Kahy
             <span className="sr-only"></span>
           </NavLink>
-          <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span> <span class="bar"></span>
-            <span class="bar"></span>
+          <div
+            className="navbar__toggle"
+            id="mobile-menu"
+            onClick={() => mobileMenu()}
+          >
+            <span class="bar" onClick={() => mobileMenu()}>
+              {" "}
+            </span>{" "}
+            <span class="bar" onClick={() => mobileMenu()}></span>
+            <span class="bar" onClick={() => mobileMenu()}></span>
           </div>
           <ul class="navbar__menu">
             <li class="navbar__item">
@@ -61,7 +64,13 @@ function Navbar(setShow, size) {
 
             <li>
               <Link to="/cart">
-                <img src={CartIcon} alt="" width={11} height={1} class="cart" />
+                <img
+                  className="CART"
+                  src={CartIcon}
+                  alt=""
+                  width={1}
+                  height={1}
+                />
               </Link>
             </li>
           </ul>
@@ -70,5 +79,9 @@ function Navbar(setShow, size) {
     </div>
   );
 }
+const mobileMenu = () => {
+  menu.classList.toggle("is-active");
+  menuLinks.classList.toggle("active");
+};
 
 export default Navbar;

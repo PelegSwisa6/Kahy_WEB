@@ -9,32 +9,25 @@ function Services() {
       <button class="main__btn">
         <a href="http://localhost:3000/products">SHOP NOW!</a>
       </button>
-      <div class="body">
-        <div class="services" id="services"></div>
-        <div class="services__photos">
-          <img src={black} alt="" width="200" class="services__photos1" />
-          <img src={white} alt="" width="200" class="services__photos1" />
-          <img src={jewel} alt="" width="200" class="services__photos1" />
 
-          <div class="services__wrapper">
-            <div class="services__card">
-              <h1>Elegant style in white</h1>
-              <p class="card2">White shirts</p>
-              <div class="services__btn"></div>
-              <div class="services__btn"></div>
-            </div>
-            <div class="services__card">
-              <h1>Classic style</h1>
-              <p class="white">Black shirts</p>
+      <div class="services__photo">
+        <img src={black} alt="" width="200" class="services__photos1" />
+        <img src={white} alt="" width="200" class="services__photos1" />
+        <img src={jewel} alt="" width="200" class="services__photos1" />
+      </div>
 
-              <div class="services__btn"></div>
-            </div>
-            <div class="services__card">
-              <h1>Everything Else</h1>
-              <p class="card2">Accessories</p>
-              <div class="services__btn"></div>
-            </div>
-          </div>
+      <div class="services__wrappe">
+        <div class="services__card">
+          <h1>Elegant style in white</h1>
+          <p class="card2">White shirts</p>
+        </div>
+        <div class="services__card">
+          <h1>Classic style</h1>
+          <p class="white">Black shirts</p>
+        </div>
+        <div class="services__card">
+          <h1>Everything Else</h1>
+          <p class="card2">Accessories</p>
         </div>
       </div>
     </body>

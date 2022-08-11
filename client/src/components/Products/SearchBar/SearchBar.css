@@ -1,0 +1,21 @@
+.form-control7 {
+    display: flex;
+    justify-content: left;
+    /* padding-left: 100%; */
+    width: 46%;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    
+    
+}
+
+.form-inline { 
+    display: flex;
+    justify-content: left;
+    padding-left: 35%;
+    
+    
+
+
+}

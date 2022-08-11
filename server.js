@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // app.get("/products", (req, res) => {
 //   res.json({ product });
 // });
-app.get("/api/hello", (req, res) => {
+app.get("/products", (req, res) => {
   fs.readFile("./products1.json", "utf8", (err, data) => {
     if (err) console.log("error");
     if (data) {

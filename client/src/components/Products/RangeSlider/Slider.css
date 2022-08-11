@@ -1,0 +1,22 @@
+.slider {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.price { 
+    font-size: larger;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.form-range { 
+    width:30%;   
+     cursor: pointer;
+     box-shadow:     inset;
+     
+
+}

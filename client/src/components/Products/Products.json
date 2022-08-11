@@ -3,7 +3,7 @@
     {
       "id": 1,
     "title": "drawing on the back",
-    "price": 109.95,
+    "price": 78,
     "description":
       "Oversize shirt with face on the back",
       "category" : "Men",
@@ -15,7 +15,7 @@
     {
         "id": 2,
     "title": "with patches",
-    "price": 22.3,
+    "price": 86,
     "description":
       "Slimfit shirt with a face tag",
     "category": "Men",
@@ -28,9 +28,8 @@
     {
       "id": 3,
   "title": "drawing on the front",
-  "price": 22.3,
-  "description":
-    "Slim shirt with a painting of a house",
+  "price": 73,
+  "description": "Slim shirt with a house",
   "category": "Men",
   "color" : "white",
   "image":
@@ -40,7 +39,7 @@
   {
     "id": 4,
 "title": "Hamsa over-size ",
-"price": 22.3,
+"price": 84,
 "description":
   "Oversized shirt with hamsa",
 "category": "Men",
@@ -52,7 +51,7 @@
 {
   "id": 5,
 "title": "Snake bracelet ",
-"price": 22.3,
+"price": 99,
 "description":
 "Silver bracelet in the shape of a snake ",
 "category": "Women",
@@ -63,7 +62,7 @@
 {
   "id": 6,
 "title": "Classic bracelet ",
-"price": 22.3,
+"price": 99,
 "description":
 "A classic silver bracelet ",
 "category": "Women",
@@ -74,7 +73,7 @@
 {
   "id": 7,
 "title": "A classic ring ",
-"price": 22.3,
+"price": 80,
 "description":
 "A classic silver ring ",
 "category": "Women",
@@ -85,7 +84,7 @@
 {
   "id": 8,
 "title": "Extensive earrings ",
-"price": 22.3,
+"price": 100,
 "description":
 "Gold-colored extended earrings",
 "category": "Women",
@@ -96,7 +95,7 @@
 {
   "id": 9,
 "title": "Late blommer",
-"price": 22.3,
+"price": 22,
 "description":
 "Slim-fitting style, late bloomer",
 "category": "Men",
@@ -108,7 +107,7 @@
 {
   "id": 10,
 "title": "Heart shirt ",
-"price": 22.3,
+"price": 35,
 "description":
 "Slim-fitting style, lost heart",
 "category": "Men",
@@ -121,7 +120,7 @@
 {
   "id": 11,
 "title": "Slim Fit T-Shirts",
-"price": 22.3,
+"price": 30,
 "description":
 "Slim-fitting style ",
 "category": "Women",
@@ -133,7 +132,7 @@
 {
   "id": 12,
 "title": "Slim Fit T-Shirts",
-"price": 22.3,
+"price": 45,
 "description":
 "Slim-fitting style, ",
 "category": "Women",
@@ -144,7 +143,7 @@
 },{
 "id": 13,
 "title": "Black bracelet",
-"price": 22.3,
+"price": 60,
 "description":
 "Black bracelet for men ",
 "category": "Men",
@@ -156,7 +155,7 @@
 ,{
   "id": 14,
   "title": "Black necklace",
-  "price": 22.3,
+  "price": 45,
   "description":
   "Black necklace for men ",
   "category": "Women",
@@ -168,7 +167,7 @@
   {
   "id": 15,
   "title": "Black bracelet ",
-  "price": 22.3,
+  "price": 89,
   "description":
   "Black bracelet for men  ",
   "category": "Men",

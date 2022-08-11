@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cart.css";
+import CheckOut from "../Products/CheckOut/CheckOut";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.min.js";
 
 export default function Basket(props) {
+  const [ButtonCheckOut, SetButtonCheckOut] = useState(false);
   const { cartItems, onAdd, onRemove } = props;
   const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0);
   const taxPrice = itemsPrice * 0.14;
@@ -63,7 +67,8 @@ export default function Basket(props) {
             <div className="row">
               <button
                 id="checkOut"
-                onClick={() => alert("Thank you for shopping Kahy!")}
+                // onClick={() => alert("Thank you for shopping Kahy!")}
+                onClick={() => SetButtonCheckOut(true)}
               >
                 Checkout
               </button>
@@ -71,6 +76,113 @@ export default function Basket(props) {
           </>
         )}
       </div>
+      <CheckOut trigger={ButtonCheckOut} setTrigger={SetButtonCheckOut}>
+        <strong>Total Price: </strong>
+        <strong>${totalPrice.toFixed(2)}</strong>
+        <h3 className="words">Details</h3>
+
+        <div class="form-group">
+          <label for="username" className="words">
+            Full name (on the card)
+          </label>
+          <input
+            type="text"
+            name="username"
+            placeholder="PELEG SWISA"
+            required
+            class="form-control1"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="username" className="words">
+            City
+          </label>
+          <input
+            type="text"
+            name="username"
+            placeholder="PELEG SWISA"
+            required
+            class="form-control1"
+          />
+          <label for="username" className="words">
+            Street & number
+          </label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Dizengoff 12"
+            required
+            class="form-control1"
+          />
+        </div>
+
+        <div class="form-card">
+          <label className="words" for="cardnumber">
+            Card Number
+          </label>
+          <input
+            type="text"
+            name="cardnumber"
+            placeholder="XXXX XXXX XXXX XXXX"
+            required
+            class="form-card"
+          />
+        </div>
+
+        <div class="input-group">
+          <label className="words">
+            <span className="words">Expiration</span>
+          </label>
+          <input
+            type="number"
+            min={0}
+            max={12}
+            placeholder="MM"
+            name=""
+            class="form-control"
+            required
+          />
+          <input
+            type="number"
+            min={2022}
+            max={2030}
+            placeholder="YY"
+            name=""
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="col-sm-4">
+          <div class="form-group mb-4">
+            <label
+              className="words"
+              data-toggle="tooltip"
+              title="Three-digits code on the back of your card"
+            >
+              CVV [3 Digits]
+              <i class="fa fa-question-circle"></i>
+            </label>
+            <input
+              type="text"
+              required
+              class="form-control"
+              placeholder="123"
+            />
+          </div>
+        </div>
+
+        <button
+          type="button"
+          class="confirm-btn"
+          // onClick={(alert) => "The shipment is on its way to you Thank you!"}
+          onClick={() => alert("The shipment is on its way to you Thank you!")}
+        >
+          {" "}
+          Confirm{" "}
+        </button>
+      </CheckOut>
     </aside>
   );
 }

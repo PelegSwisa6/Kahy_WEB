@@ -5,16 +5,31 @@ import Wwd from "./components/Wwd/Wwd";
 import Services from "./components/Services/Services";
 import photos from "./components/Products/Products.json";
 import { useState, useEffect } from "react";
-import items from "./components/Products/Products.json";
+import slideData from "./components/Products/Products.json";
+
 import Menu from "./components/Products/Menu";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import App from "./components/App/App";
 import Cart from "./components/Products/Cart";
-const allCategories = ["All", ...new Set(items.map((item) => item.category))];
+
+// import items from "./components/Products/Products.json";
+// const allCategories = ["All", ...new Set(items.map((item) => item.category))];
 
 function Main() {
-  const { products } = photos;
+  useEffect(() => {
+    fetch("/products")
+      .then((res) => res.json())
+      .then((helloRes) => {
+        console.log(helloRes);
+        setMenuItem(helloRes);
+        setButtons(helloRes);
+      });
+  }, []);
+
+  const [searchTerm, setSearchTerm] = useState("");
+
+  // const { products } = photos;
   const [cartItems, setCartItems] = useState([]);
 
   const onAdd = (product) => {
@@ -42,6 +57,7 @@ function Main() {
     }
   };
 
+  const [category, setCategory] = useState("All");
   //
   // const [cartItems, setCartItems] = useState([]);
 
@@ -54,15 +70,9 @@ function Main() {
     menuLinks.classList.toggle("active");
   };
 
-  const [menuItem, setMenuItem] = useState(items); //items
-  const [buttons, setButtons] = useState(allCategories); //allCategories
-  // useEffect(() => {
-  //   fetch("/api/hello")
-  //     .then((res) => res.json())
-  //     .then((helloRes) => {
-  //       setMenuItem(helloRes);
-  //     });
-  // }, []);
+  const [menuItem, setMenuItem] = useState([]); //items
+  const [buttons, setButtons] = useState([]); //allCategories
+
   // useEffect(() => {
   //   setButtons(menuItem);
   // }, []);
@@ -70,12 +80,14 @@ function Main() {
   //Filter Function
   const filter = (button) => {
     if (button === "All") {
-      setMenuItem(items);
+      setMenuItem(buttons);
+      // setCategory("All");
       return;
     }
 
-    const filteredData = items.filter((item) => item.category === button);
+    const filteredData = buttons.filter((item) => item.category === button);
     setMenuItem(filteredData);
+    // setCategory("button");
   };
   return (
     <Router>
@@ -103,10 +115,13 @@ function Main() {
           path="/products"
           element={
             <Menu
+              setSearchTerm={setSearchTerm}
+              searchTerm={searchTerm}
               menuItem={menuItem}
+              setMenuItem={setMenuItem}
               button={buttons}
+              setButtons={setButtons}
               filter={filter}
-              products={products}
               onAdd={onAdd}
               onRemove={onRemove}
               cartItems={cartItems}

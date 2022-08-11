@@ -5,9 +5,9 @@
   font-family: 'Kumbh Sans', sans-serif;
   scroll-behavior: smooth;
 }
-.cart { 
-  height: 75px;
-  width: 75px;
+.CART { 
+  height: 55px;
+  width: 55px;
 }
 
 
@@ -104,12 +104,15 @@
   color: #9518fc;
   transition: all 0.3s ease;
 }
+.CART{
+
+}
 
 /* s;s; */
 
 
 @media screen and (max-width: 960px) {
-  .navbar__container {
+  /* .navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -199,5 +202,5 @@
 
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-  }
+  } */
 }
