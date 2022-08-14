@@ -1,0 +1,192 @@
+[
+    {
+     "id" :1 ,
+     "title":"iphone 13 Pro-Max",
+     "price":600,
+     "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/b/l/blue_8_1.png",
+     "category":"phone"
+    },
+    {
+    "id" :2 ,
+    "title":"iphone 12 Pro-Max",
+    "price":550,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/g/r/graphite-pro_8.png",
+    "category":"phone"
+    },
+    {
+    "id" :3 ,
+    "title":"iphone 10",
+    "price":350,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/b/l/blue_3.png",
+    "category":"phone"
+    },
+    {
+    "id" :4 ,
+    "title":"Samsung galaxy S22",
+    "price":600,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69115529_1000x1000_13.2_new2_9_10.4.22.png",
+    "category":"phone"
+    },
+    {
+    "id" :5 ,
+    "title":"Samsung S21 Ultra",
+    "price":450,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69115529_1000x1000_13.2_new2_10_1.png",
+    "category":"phone"
+    },
+    {
+    "id" :6 ,
+    "title":"Samsung galaxy A51 ",
+    "price":470,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69115529_1000x1000_v3_3_sm-g990_s21fe_front_za.png",
+    "category":"phone"
+    },
+    {
+    "id" :7 ,
+    "title":"Samsung galaxy A33",
+    "price":390,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69116190_pics_1000x100021sm-a336_galaxy_a33_5g_awesome_black_front_1.png",
+    "category":"phone"
+    },
+    {
+    "id" :8 ,
+    "title":"Samsung galaxy Flip",
+    "price":450,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/9ef013577458e7d78e099a289341f295/h/6/h69115326_1000x1000_5_2_1.png",
+    "category":"phone"
+    },
+    {
+    "id" :9 ,
+    "title":"Xiaomi 11T",
+    "price":290,
+    "image":"https://hotstore.hotmobile.co.il/media/catalog/product/cache/a73c0d5d6c75fbb1966fe13af695aeb7/h/6/h69115529_1000x1xiaomi_mi_11t_pro-white1_1.png",
+    "category":"phone"
+    },
+    {
+        "id" :10 ,
+        "title":"Dell 14.2'",
+        "price":460,
+        "image":"https://th.bing.com/th/id/OIP.sN04m8AQ-bUkwQ9Ol3vCggHaFs?pid=ImgDet&rs=1",
+        "category":"laptop"
+       },
+       {
+       "id" :11 ,
+       "title":"Lenovo 15.6'",
+       "price":850,
+       "image":"https://d27nqrvkk22y65.cloudfront.net/product_image/image/422940/big_633df20b41.jpg",
+       "category":"laptop"
+       },
+       {
+       "id" :12 ,
+       "title":"Dell 11.2'",
+       "price":350,
+       "image":"https://th.bing.com/th/id/OIP.Kxj9LtQS6G-dSCfwh3HFxgHaEs?pid=ImgDet&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :13 ,
+       "title":"Apple MacBook",
+       "price":500,
+       "image":"https://th.bing.com/th/id/OIP.c0t86mRMqzRgPRDyIUuwYQAAAA?pid=ImgDet&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :14 ,
+       "title":"Lenovo V14",
+       "price":620,
+       "image":"https://th.bing.com/th/id/OIP.Hh9BIlN4Qivy37uxDRKf4gHaE8?pid=ImgDet&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :15 ,
+       "title":"HP 14.2'",
+       "price":780,
+       "image":"https://th.bing.com/th/id/OIP.c32Dn85iwuWdFhdaxFl_uQHaE5?pid=ImgDet&w=609&h=403&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :16 ,
+       "title":"Asus 15.6'",
+       "price":590,
+       "image":"https://th.bing.com/th/id/OIP.YNzqCliR0TdQRiIlN1KIRgHaFJ?pid=ImgDet&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :17 ,
+       "title":"Dell inspiron 14.4'",
+       "price":630,
+       "image":"https://th.bing.com/th/id/OIP.ml3Gyg6YD6QxYF5O3l5xHAHaHa?pid=ImgDet&w=1000&h=1000&rs=1",
+       "category":"laptop"
+       },
+       {
+       "id" :18 ,
+       "title":"Apple MacBook 16.1'",
+       "price":780,
+       "image":"https://cdn.mos.cms.futurecdn.net/GWSyu7u2Bw7hwg2YvwA9RM-1200-80.jpg",
+       "category":"laptop"
+       },
+       {
+        "id" :19 ,
+        "title":"Lenovo V10",
+        "price":460,
+        "image":"19.webp",
+        "category":"TV"
+       },
+       {
+       "id" :20 ,
+       "title":"SAMSUNG 42'",
+       "price":850,
+       "image":"20.webp",
+       "category":"TV"
+       },
+       {
+       "id" :21 ,
+       "title":"LG Smart",
+       "price":350,
+       "image":"21.webp",
+       "category":"TV"
+       },
+       {
+       "id" :22 ,
+       "title":"LG QLED    ",
+       "price":500,
+       "image":"22.webp",
+       "category":"TV"
+       },
+       {
+       "id" :23 ,
+       "title":"SAMSUNG 50'",
+       "price":620,
+       "image":"23.webp",
+       "category":"TV"
+       },
+       {
+       "id" :24 ,
+       "title":"LENOVO 70'",
+       "price":780,
+       "image":"24.webp",
+       "category":"TV"
+       },
+       {
+       "id" :25 ,
+       "title":"APPLE 75'",
+       "price":790,
+       "image":"25.webp",
+       "category":"TV"
+       },
+       {
+       "id" :26 ,
+       "title":"QLED",
+       "price":630,
+       "image":"26.webp",
+       "category":"TV"
+       },
+       {
+       "id" :27 ,
+       "title":"SAMSUNG 80'",
+       "price":990,
+       "image":"27.webp",
+       "category":"TV"
+       }
+
+]

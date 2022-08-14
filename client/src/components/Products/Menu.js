@@ -1,7 +1,6 @@
 import React from "react";
 import "./Products.css";
-import Slider from "./RangeSlider/Slider";
-import SearchBar from "./SearchBar/SearchBar";
+
 import Card from "react-bootstrap/Card";
 import { useEffect } from "react";
 import "./SearchBar/SearchBar.css";
@@ -62,19 +61,6 @@ function Menu({
         </form>
         {/* <Slider /> */}
       </div>
-      <div className="slider">
-        <h1 className="price">Min Price</h1>
-
-        <input
-          type="range"
-          class="form-range"
-          min="0"
-          max="1000"
-          step="10"
-          id="customRange3"
-        ></input>
-        <h1 className="price"> Max Price</h1>
-      </div>
 
       <div className="template_Container">
         {menuItem
@@ -102,23 +88,6 @@ function Menu({
             );
           })}
       </div>
-
-      {/* {menuItem.map((item) => {
-        return (
-          <body>
-            <div class="content">
-              <img class="photosCard" src={item.image} />
-              <h3 class="title"> {item.title} </h3>
-              <p class="title"> {item.description} </p>
-              <h6 class="price"> {item.price} $</h6>
-
-              <button class="Cart" onClick={() => onAdd(item)}>
-                Add To Cart
-              </button>
-            </div>
-          </body>
-        );
-      })} */}
     </div>
   );
 }
